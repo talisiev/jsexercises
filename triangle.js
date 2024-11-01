@@ -39,5 +39,5 @@
                             
                             default:document.getElementById("triangle").innerHTML = "Invalid Input. Please enter numerical number only.";  
                         }
-
+                      document.getElementById("refresh").innerHTML =  "<button onClick=location.reload();>Refresh</button>";
                     }
